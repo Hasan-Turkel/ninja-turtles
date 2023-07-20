@@ -24,7 +24,7 @@ const Mutant = () => {
   {id==="leonardo"? <p className="card-text">
     The leader, is the most disciplined and skilled turtle; an expert swordsman, he wields two katana and wears a blue bandana.
     </p>:id==="raphael"?<p className="card-text">
-      He strongest and most hot-headed turtle,[23] wears a red bandana and uses a pair of sai.
+      He strongest and most hot-headed turtle, wears a red bandana and uses a pair of sai.
     </p>
 :id==="donatello"?   <p className="card-text">
 He uses his intellect to invent gadgets and vehicles; he wears a purple mask and uses a bo staff.
