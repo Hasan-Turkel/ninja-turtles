@@ -15,20 +15,20 @@ const Mutant = () => {
     <main className="bg-black">
     <div className="card text-center m-auto p-4" style={{ width: "18rem" }}>
 
-{id=="leonardo"? <img src={leonardo} className="card-img-top" alt="..." />:id=="raphael"?<img src={raphael}  className="card-img-top" alt="..." />:id=="donatello"?  <img src={donatello}  className="card-img-top" alt="..." />:id=="michelangelo"?<img src={michelangelo} className="card-img-top" alt="..." />:
+{id==="leonardo"? <img src={leonardo} className="card-img-top" alt="..." />:id==="raphael"?<img src={raphael}  className="card-img-top" alt="..." />:id==="donatello"?  <img src={donatello}  className="card-img-top" alt="..." />:id==="michelangelo"?<img src={michelangelo} className="card-img-top" alt="..." />:
 <img className="p-4" width={"250px"} src={err} alt="" />
 }
 
   <div className="card-body">
 
-  {id=="leonardo"? <p className="card-text">
+  {id==="leonardo"? <p className="card-text">
     The leader, is the most disciplined and skilled turtle; an expert swordsman, he wields two katana and wears a blue bandana.
-    </p>:id=="raphael"?<p className="card-text">
+    </p>:id==="raphael"?<p className="card-text">
       He strongest and most hot-headed turtle,[23] wears a red bandana and uses a pair of sai.
     </p>
-:id=="donatello"?   <p className="card-text">
+:id==="donatello"?   <p className="card-text">
 He uses his intellect to invent gadgets and vehicles; he wears a purple mask and uses a bo staff.
-</p>:id=="michelangelo"?<p className="card-text">
+</p>:id==="michelangelo"?<p className="card-text">
     He is the least disciplined and most fun-loving turtle, and is usually portrayed as the fastest and most agile. He wears an orange bandana and uses nunchucks.</p>
 :<p></p>}
 
