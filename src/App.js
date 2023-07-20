@@ -15,6 +15,7 @@ function App() {
     <>
     <BrowserRouter>
     <Nav/>
+    <Footer/>
     <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/about' element={<About/>} />
