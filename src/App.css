@@ -1,14 +1,8 @@
 div.contact{
-  position: relative;
   & img{
     opacity: 0.8;
   }
-  & div{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  
 }
 .active{
   font-weight: 700;

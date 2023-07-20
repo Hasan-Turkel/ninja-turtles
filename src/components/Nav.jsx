@@ -6,6 +6,8 @@ import  logo  from "../img/logo.png";
 const Nav = () => {
   let navigate = useNavigate()
   return (
+
+    
     <nav className="d-flex justify-content-between p-4 bg-primary-subtle">
       <img role="button" onClick={()=>navigate("/")} src={logo} alt="" width={"20%"} />
       <ul className="nav justify-content-end">
