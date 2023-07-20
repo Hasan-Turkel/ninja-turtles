@@ -1,22 +1,25 @@
-import { Link } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 import  logo  from "../img/logo.png";
 
+
+
 const Nav = () => {
+  let navigate = useNavigate()
   return (
     <nav className="d-flex justify-content-between p-4 bg-primary-subtle">
-      <img src={logo} alt="" width={"20%"} />
+      <img role="button" onClick={()=>navigate("/")} src={logo} alt="" width={"20%"} />
       <ul className="nav justify-content-end">
   <li className="nav-item ">
-   <Link  to="/" className="nav-link text-dark fs-5">Home</Link>
+   <NavLink  to="/" className="nav-link text-dark fs-5">Home</NavLink>
   </li>
   <li className="nav-item">
-   <Link  to="/about" className="nav-link text-dark fs-5 ">About</Link>
+   <NavLink  to="/about" className="nav-link text-dark fs-5 ">About</NavLink>
   </li>
   <li className="nav-item">
-   <Link  to="/crew" className="nav-link text-dark fs-5">Our Crew</Link>
+   <NavLink  to="/crew" className="nav-link text-dark fs-5">Our Crew</NavLink>
   </li>
   <li className="nav-item">
-   <Link  to="/contact" className="nav-link text-dark fs-5">Contact</Link>
+   <NavLink  to="/contact" className="nav-link text-dark fs-5">Contact</NavLink>
   </li>
 </ul>
     </nav>
