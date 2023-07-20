@@ -1,10 +1,8 @@
-import leonardoAside from "../img/leanardo-aside.gif";
-import michalengeloAside from "../img/michalengelo-aside.gif";
 
 const About = () => {
   return (
     <div className="d-flex justify-content-between p-3 bg-black ">
-      {/* <img src={leonardoAside} alt="" /> */}
+     
       <p className="p-2 text-center text-light fs-4">
         Teenage Mutant Ninja Turtles, sometimes abbreviated to TMNT, is an
         American media franchise created by the comic book artists Kevin Eastman
@@ -24,7 +22,6 @@ const About = () => {
         regions, the franchise was titled Teenage Mutant Hero Turtles, due to
         the violent connotations of the word "ninja".
       </p>
-      {/* <img src={michalengeloAside} alt="" /> */}
     </div>
   );
 };
