@@ -9,6 +9,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Crew from './pages/Crew';
 import NotFound from './pages/NotFound';
+import Mutant from './pages/Mutant';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/' element={<Home/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/crew' element={<Crew/>} />
+      <Route path='/crew/:id' element={<Mutant/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='*' element={<NotFound/>} />
     </Routes>
